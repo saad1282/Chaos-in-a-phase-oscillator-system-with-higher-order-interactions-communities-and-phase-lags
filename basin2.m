@@ -182,4 +182,3 @@ parfor (i = 1 : num_ini_condition, 8)
 end
 matrix(:,4) = basin_ans;
 %toc
-%save('/rc_scratch/saad1282/basin_using_maxminfor1.406_Heuns_samephi1.mat', 'gamma', 'tol_variance', 'matrix', 'K1', 'K2')
